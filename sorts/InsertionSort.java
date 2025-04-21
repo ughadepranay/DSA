@@ -1,3 +1,5 @@
+package sorts;
+
 public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = {9, 3,2 , 23, 234, 29, 50, -33, -222};
