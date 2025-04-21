@@ -32,7 +32,7 @@ public class RemoveOuterMostParanthesis {
         String s = "(()())(())(()(()))";
         //need to print primitive decomposition
         Stack<Character> stack = new Stack<>();
-        StringBuilder str = new StringBuilder("");
+        StringBuilder str = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '(') {
                 //see if stack is not empty onty then you need to append the charater int0 the stringbuldr
